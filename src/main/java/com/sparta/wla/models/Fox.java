@@ -12,4 +12,9 @@ public class Fox extends Animal{
     public int getFoxID() {
         return foxID;
     }
+
+    @Override
+    public String toString(){
+        return "Rabbit created! -- Rabbit ID: " + foxID + ", rabbit gender: " + getGender();
+    }
 }

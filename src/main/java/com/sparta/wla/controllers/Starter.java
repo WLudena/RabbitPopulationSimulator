@@ -7,6 +7,6 @@ package com.sparta.wla.controllers;
 public abstract class Starter
 {
     public static void main(String args[]) throws InterruptedException {
-        new SpawnAnimal().spawnRabbitPopulation();
+        new SpawnAnimal().spawnRabbitsThreaded();
     }
 }
