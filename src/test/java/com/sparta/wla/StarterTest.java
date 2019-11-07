@@ -17,4 +17,10 @@ public class StarterTest
     {
         assertTrue( true );
     }
+
+
+    @Test
+    public void testAdamAndEveRabbitExist(){
+
+    }
 }

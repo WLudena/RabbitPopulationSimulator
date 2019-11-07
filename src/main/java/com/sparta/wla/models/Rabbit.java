@@ -6,15 +6,10 @@ public class Rabbit extends Animal {
 
     public Rabbit(Gender gender, int rabbitID) {
         super(gender, rabbitID);
-        this.rabbitID = rabbitID;
-    }
-
-    public int getRabbitID() {
-        return rabbitID;
     }
 
     @Override
     public String toString(){
-        return "Rabbit created! -- Rabbit ID: " + rabbitID + ", rabbit gender: " + getGender() + ", rabbit age: " + getAge();
+        return "Rabbit created! -- Rabbit ID: " + getId() + ", rabbit gender: " + getGender() + ", rabbit age: " + getAge();
     }
 }

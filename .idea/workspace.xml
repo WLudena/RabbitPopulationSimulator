@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffafac06-51fc-48da-be39-3190f730b477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/logFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/displays/DisplayPopulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/Starter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Fox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Rabbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/RabbitPopulationSimulator.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/wla/StarterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/wla/StarterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/SpawnAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/SpawnAnimal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/Starter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Fox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Fox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Rabbit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Rabbit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sparta/wla/StarterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sparta/wla/StarterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,18 +111,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="18" />
+          <line>70</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="20" />
+          <line>73</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
