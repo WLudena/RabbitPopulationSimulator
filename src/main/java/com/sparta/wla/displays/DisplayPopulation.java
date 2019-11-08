@@ -28,7 +28,7 @@ public class DisplayPopulation {
         System.out.println("\nInitial population of rabbits: " + newPopulation.getRabbitList().size());
         System.out.println("Initial population of foxes: " + newPopulation.getFoxList().size() + "\n");
 
-        while (true) {
+        while (newPopulation.getMonthCounter() < duration) {
             newPopulation.spawnPopulation();
             System.out.println("-------------------------------------------------------------");
             System.out.println("\nMonth number :" + newPopulation.getMonthCounter());

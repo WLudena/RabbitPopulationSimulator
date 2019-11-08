@@ -10,5 +10,6 @@ public abstract class Starter
 {
     public static void main(String args[]) throws InterruptedException {
         new DisplayPopulation().displaySimulation();
+        //System.out.println(10-(-2));
     }
 }

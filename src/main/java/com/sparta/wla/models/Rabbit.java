@@ -2,7 +2,7 @@ package com.sparta.wla.models;
 
 public class Rabbit extends Animal {
 
-    private int rabbitID;
+    private int individualBreedingCounter;
 
     public Rabbit(Gender gender, int rabbitID) {
         super(gender, rabbitID);

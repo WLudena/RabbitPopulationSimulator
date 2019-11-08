@@ -1,6 +1,5 @@
 package com.sparta.wla.controllers;
 
-import com.sparta.wla.displays.DisplayPopulation;
 import com.sparta.wla.models.Animal;
 import com.sparta.wla.models.Fox;
 import com.sparta.wla.models.Gender;
@@ -18,7 +17,6 @@ public class SpawnAnimal {
     private Random rand = new Random();
     private List<Animal> rabbitList = new ArrayList<>();
     private List<Animal> foxList = new ArrayList<>();
-    private int foxIntroduction = 6; //Figure this out
 
     private int maleRabbitCount = 1;
     private int femaleRabbitCount = 1;
@@ -31,7 +29,7 @@ public class SpawnAnimal {
     }
 
     public void spawnPopulation() {
-        if (monthCounter < foxIntroduction) { //In order attempt rabbit population control, foxes are introduced on month 6
+        if (monthCounter < 10) { //In order attempt rabbit population control, foxes are introduced on month 6
             spawnRabbits();
             monthCounter++;
 //            try{
@@ -89,17 +87,17 @@ public class SpawnAnimal {
         List<Animal> tempFoxList = new ArrayList<>();
 
         for (Animal fox : foxList) {
-            if (fox.getGender().equals(Gender.FEMALE) && fox.getAge() >= 10 && monthCounter % 12 == 0) { //Right now, foxes reproduce once every 12 months, no matter when introduced
-                for (int i = 0; i < rand.nextInt(11); i++) {
-                    tempFoxList.add(new Fox(pickRandomGender(), index));
+            if (fox.canBreed(monthCounter)) { //Right now, foxes reproduce once every 12 months, no matter when introduced
+                for (int i = 0; i < rand.nextInt(10)+1; i++) {
+                    Animal babyFox = new Fox(pickRandomGender(),index);
+                    tempFoxList.add(babyFox);
                     index++;
                 }
             }
-            fox.setAge(fox.getAge() + 1);
+            fox.incrementAge();
         }
         foxList.addAll(tempFoxList);
     }
-
 
     public List<Animal> getRabbitList() {
         return rabbitList;
@@ -150,6 +148,7 @@ public class SpawnAnimal {
         foxList.add(new Fox(Gender.MALE, 1));
         for (Animal fox : foxList) {
             fox.setAge(10);
+            fox.setBreedOn(-2); // This only applies to starting pair of foxes --> Allows them to breed straight away after being introduced on month 6
         }
     }
 
