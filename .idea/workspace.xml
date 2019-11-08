@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffafac06-51fc-48da-be39-3190f730b477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/displays/DisplayPopulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/models/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/wla/displays/DisplayPopulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/wla/displays/DisplayPopulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/wla/StarterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/wla/StarterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/SpawnAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/SpawnAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/controllers/Starter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Fox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Fox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Rabbit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/models/Rabbit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/wla/displays/DisplayPopulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/wla/displays/DisplayPopulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/sparta/wla/StarterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sparta/wla/StarterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StarterTest.testAdamAndEveRabbitExist">
     <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.wla.controllers.Starter" />
       <module name="RabbitPopulationSimulator" />
@@ -74,8 +69,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarterTest.testAdamAndEveRabbitExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitPopulationSimulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.wla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.wla" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.wla.StarterTest" />
+      <option name="METHOD_NAME" value="testAdamAndEveRabbitExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterTest.testAdanAndEvenFoxExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitPopulationSimulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.wla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.wla" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.wla.StarterTest" />
+      <option name="METHOD_NAME" value="testAdanAndEvenFoxExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StarterTest.testAdamAndEveRabbitExist" />
+        <item itemvalue="JUnit.StarterTest.testAdanAndEvenFoxExist" />
         <item itemvalue="Application.Starter" />
       </list>
     </recent_temporary>
@@ -111,13 +140,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="27" />
+          <line>86</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="28" />
+          <line>28</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/wla/controllers/SpawnAnimal.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
