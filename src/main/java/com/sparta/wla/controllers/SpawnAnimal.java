@@ -79,7 +79,7 @@ public class SpawnAnimal {
             if (fox.canBreed(monthCounter)) {
                 for (int i = 0; i < rand.nextInt(10)+1; i++) {
                     Animal babyFox = new Fox(pickRandomGender(),index);
-                    babyFox.setBreedOn(monthCounter-2); //Ensures new foxes breed once they reach maturity (After 10 months)
+                    ((Fox) babyFox).setBreedOn(monthCounter-2); //Ensures new foxes breed once they reach maturity (After 10 months)
                     tempFoxList.add(babyFox);
                     index++;
                 }
@@ -138,7 +138,7 @@ public class SpawnAnimal {
         foxList.add(new Fox(Gender.MALE, 1));
         for (Animal fox : foxList) {
             fox.setAge(10);
-            fox.setBreedOn(-2); // This only applies to starting pair of foxes --> Allows them to breed straight away after being introduced on month 6
+            ((Fox)fox).setBreedOn(-2); // This only applies to starting pair of foxes --> Allows them to breed straight away after being introduced on month 6
         }
     }
 
