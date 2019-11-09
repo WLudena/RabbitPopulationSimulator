@@ -44,7 +44,6 @@ public class Animal {
             return false;
         }
     }
-
     public void incrementAge(){
         age++;
     }

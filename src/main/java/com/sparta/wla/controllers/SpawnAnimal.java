@@ -31,23 +31,12 @@ public class SpawnAnimal {
     public void spawnPopulation() {
         if (monthCounter < 10) { //In order attempt rabbit population control, foxes are introduced on month 6
             spawnRabbits();
-            monthCounter++;
-//            try{
-//                Thread.sleep(1000);
-//            }catch(InterruptedException e){
-//                e.printStackTrace();
-//            }
         } else {
             spawnRabbits();
             spawnFoxes();
             feedFoxes();
-            monthCounter++;
-//            try{
-//                Thread.sleep(1000);
-//            }catch(InterruptedException e){
-//                e.printStackTrace();
-//            }
         }
+        monthCounter++;
     }
 
     private void spawnRabbits() {
@@ -74,7 +63,7 @@ public class SpawnAnimal {
                     } else {
                         maleRabbitCount++;
                     }
-                    index++;
+                    index++; //Kept a private index so each animal has a different ID
                 }
             }
         }
@@ -87,9 +76,10 @@ public class SpawnAnimal {
         List<Animal> tempFoxList = new ArrayList<>();
 
         for (Animal fox : foxList) {
-            if (fox.canBreed(monthCounter)) { //Right now, foxes reproduce once every 12 months, no matter when introduced
+            if (fox.canBreed(monthCounter)) {
                 for (int i = 0; i < rand.nextInt(10)+1; i++) {
                     Animal babyFox = new Fox(pickRandomGender(),index);
+                    babyFox.setBreedOn(monthCounter-2); //Ensures new foxes breed once they reach maturity (After 10 months)
                     tempFoxList.add(babyFox);
                     index++;
                 }

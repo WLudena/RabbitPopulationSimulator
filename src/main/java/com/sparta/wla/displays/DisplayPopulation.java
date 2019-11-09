@@ -25,6 +25,7 @@ public class DisplayPopulation {
             }
         }
         System.out.println("Initialized!");
+        System.out.println("\nMonth:"+ newPopulation.getMonthCounter());
         System.out.println("\nInitial population of rabbits: " + newPopulation.getRabbitList().size());
         System.out.println("Initial population of foxes: " + newPopulation.getFoxList().size() + "\n");
 
