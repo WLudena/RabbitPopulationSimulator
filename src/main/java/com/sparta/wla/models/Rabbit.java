@@ -7,6 +7,11 @@ public class Rabbit extends Animal {
     }
 
     @Override
+    public boolean canBreed(int month) {
+        return true;
+    }
+
+    @Override
     public String toString(){
         return "Rabbit created! -- Rabbit ID: " + getId() + ", rabbit gender: " + getGender() + ", rabbit age: " + getAge();
     }

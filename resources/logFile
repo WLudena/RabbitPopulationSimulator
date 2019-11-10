@@ -1,0 +1,2 @@
+10-11-2019 20:14:31 ERROR [main] DisplayManager - com.sparta.wla.exceptions.SimulationException: Incorrect character!
+10-11-2019 20:19:41 ERROR [main] DisplayManager - java.lang.OutOfMemoryError: Java heap space
